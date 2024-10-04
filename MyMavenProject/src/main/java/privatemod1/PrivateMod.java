@@ -1,4 +1,4 @@
-package acessmodifier1;
+package privatemod1;
 
 import acessmodifier.PrivateModifier;
 
