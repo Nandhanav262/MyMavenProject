@@ -22,9 +22,11 @@ public void show()
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Details obj=new Details("aluva","kerala","india");	
+Details obj=new Details("Aluva","kerala","India");	
 Employee obj1=new Employee(212,"Ammu",obj);
 obj1.show();
 	}
 
 }
+
+
