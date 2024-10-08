@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 	class B extends A
 	{

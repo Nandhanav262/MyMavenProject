@@ -1,4 +1,4 @@
-package oops;
+package inheritance;
 
 class B2 extends A2{
 		public void display()
