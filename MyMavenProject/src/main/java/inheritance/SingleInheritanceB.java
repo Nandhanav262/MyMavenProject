@@ -1,6 +1,6 @@
 package inheritance;
 
-	class B extends A
+	class SingleInheritanceB extends SingleInheritanceA
 	{
 		public void display()
 		{
@@ -10,7 +10,7 @@ package inheritance;
 		public static void main(String[] args)
 		{
 			// TODO Auto-generated method stub
-	B obj=new B();
+	SingleInheritanceB obj=new SingleInheritanceB();
 	obj.display();
 	obj.show();
 		}

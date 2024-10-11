@@ -1,6 +1,6 @@
 package inheritance;
 
-class B1 extends A1{
+class MultiLevel2 extends MultiLevel1{
 
 		public void run()
 		{

@@ -1,6 +1,6 @@
 package inheritance;
 
-class B2 extends A2{
+class HeirachialB extends HeirachialA{
 		public void display()
 		{
 			System.out.println("Haiiii");

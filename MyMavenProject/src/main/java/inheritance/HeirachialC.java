@@ -1,6 +1,6 @@
 package inheritance;
 
-class C2 extends A2
+class HeirachialC extends HeirachialA
 {
 	public void run()
 	{
@@ -11,9 +11,9 @@ class C2 extends A2
 	public static void main(String[] args)
 	{
 		// TODO Auto-generated method stub
-		C2 obj=new C2();
+		HeirachialC obj=new HeirachialC();
 		obj.run();
-		B2 obj1=new B2();
+		HeirachialB obj1=new HeirachialB();
 		obj1.display();
 		obj1.show();
 

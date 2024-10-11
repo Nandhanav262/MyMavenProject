@@ -1,6 +1,6 @@
 package inheritance;
 
-class C1 extends B1
+class MultiLevel3 extends MultiLevel2
 {
 	public void display()
 	{
@@ -9,7 +9,7 @@ class C1 extends B1
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-C1 obj=new C1();
+MultiLevel3 obj=new MultiLevel3();
 obj.display();
 obj.run();
 obj.show();

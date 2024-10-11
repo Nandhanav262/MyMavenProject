@@ -1,6 +1,6 @@
 package inheritance;
 
-class A2
+class HeirachialA
 {
 	public void show()
 	{

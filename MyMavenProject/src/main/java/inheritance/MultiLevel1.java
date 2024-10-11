@@ -1,6 +1,6 @@
 package inheritance;
 
-class A1 {
+class MultiLevel1 {
 	
 		public void show()
 		{

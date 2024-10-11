@@ -1,6 +1,6 @@
 package inheritance;
 
-class A {
+class SingleInheritanceA {
 	public void show()
 	{
 		System.out.println("Hai");
