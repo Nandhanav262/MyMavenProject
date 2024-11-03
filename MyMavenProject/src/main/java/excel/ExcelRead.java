@@ -15,7 +15,7 @@ public class ExcelRead {
 	
 	public static String get_string_data(int a,int b) throws IOException
 	{
-		f= new FileInputStream("C:\\Users\\suhai\\OneDrive\\Desktop\\sumayya\\ExcelRead.xlsx");
+		f= new FileInputStream("C:\\Users\\USER\\OneDrive\\Desktop\\ExcelRead.xlsx");
 		w= new XSSFWorkbook (f);
 		sh=w.getSheet("Sheet1");
 		Row r=sh.getRow(a);
@@ -23,9 +23,15 @@ public class ExcelRead {
 		return c.getStringCellValue();
 		}
 	
-	public static void get_integer_data()
+	public static String get_integer_data(int a,int b) throws IOException
 	{
-		
+		f= new FileInputStream("C:\\Users\\USER\\OneDrive\\Desktop\\ExcelRead.xlsx");
+		w= new XSSFWorkbook (f);
+		sh=w.getSheet("Sheet1");
+		Row r=sh.getRow(a);
+		Cell c=r.getCell(b);
+		int x=(int)c.getNumericCellValue();
+		return String.valueOf(x);
 	}
 
 	
